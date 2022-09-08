@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 385px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1B244A;
+    color: white;
+
+}
+
+#box {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+
+#scoreofHome, #scoreofGuest {
+    color: red;
+    font-size: 65px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    padding: 16px;
+    
+}
+
+#scoreIncrement{
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    padding: 9px 7px;
+    border: solid 2px #9AABD8;
+    border-radius: 5px;    
+}
